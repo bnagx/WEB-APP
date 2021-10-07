@@ -1,0 +1,154 @@
+/* DESKTOP BIGSTARBUCKSBOX + word inside */
+
+.tabletbigstarbucksbox {
+  display: none;
+}
+
+.mobilebigstarbucksbox {
+  display: none;
+}
+
+.bigstarbucksbox {
+  background-image: url(/mywebsite/images/indexmainimg.jpg);
+  height: 670px;
+  position: relative;
+  background-position: center;
+}
+
+.blackbg img {
+  opacity: 0.5;
+  width: 100%;
+}
+
+.bigstarbucksword {
+  position: absolute;
+  top: 32%;
+  left: 5%;
+  padding-right: 25px;
+  color: white;
+  text-align: center;
+}
+
+.bigstarbucksword h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.bigstarbucksword h2 {
+  font-size: 20px;
+}
+
+/* WHY CHOOSE STARBUCKS? */
+
+.whychoosestarbuckword {
+  color: #064420;
+  text-align: center;
+  font-size: 25px;
+}
+
+.threebox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.threebox > div {
+  flex: 1;
+  margin: 10px;
+}
+
+.threeboximg {
+  padding: 10px;
+}
+
+.threeboximg img {
+  width: 100%;
+}
+
+.threeboxword {
+  color: #064420;
+  margin: 20px;
+  text-align: justify;
+}
+
+.threeboxword h1 {
+  font-size: 27px;
+  text-align: center;
+}
+
+.threeboxword p {
+  font-size: 20px;
+}
+
+/* TABLET  */
+
+@media only screen and (max-width: 900px) {
+  /* TABLET BIGSTARBUCKSBOX */
+
+  .tabletblackbg img {
+    opacity: 0.5;
+    width: 100%;
+  }
+
+  .tabletbigstarbucksword {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: white;
+    text-align: center;
+  }
+
+  .tabletindeximg {
+    margin: 10px;
+  }
+
+  /* TABLET WHY CHOOSE STARBUCKS */
+  .whychoosestarbuckword {
+    font-size: 20px;
+  }
+
+  /* TABLET three box */
+
+  .threeboximg img {
+    width: fit-content;
+  }
+
+  .threebox {
+    display: block;
+  }
+
+  .threebox > div {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* MOBILE BIGSTARBUCKSBOX */
+  .mobileblackbg img {
+    opacity: 0.5;
+    width: 100%;
+  }
+
+  .mobilebigstarbucksword {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: white;
+    text-align: center;
+  }
+
+  /* MOBILE three box */
+  .threebox > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .threeboximg {
+    display: flex;
+    justify-content: center;
+  }
+
+  .threeboxword {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}

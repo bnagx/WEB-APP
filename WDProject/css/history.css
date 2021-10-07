@@ -1,0 +1,200 @@
+/* FONT COLOR */
+body {
+  color: #064420;
+}
+/* TABLE DISPLAY */
+.table {
+  display: none;
+}
+/* TOP CONTENT + IMG */
+.mobiletopcontentandimg {
+  display: none;
+}
+.topcontentandimg {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4efe7;
+  margin-bottom: 90px;
+}
+.topcontenttitle {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  text-align: center;
+  flex: 1.5;
+}
+.topcontenttitle h2 {
+  font-size: 30px;
+}
+.topcontenttitle h5 {
+  font-size: 20px;
+}
+.topcontentimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+}
+.topcontentandimg img {
+  margin: 20px;
+}
+
+/* THREE SMALL IMG */
+.tabletthreesmallimgdiv {
+  display: none;
+}
+.threesmallimgdiv {
+  display: flex;
+}
+.threesmallimgdiv p {
+  font-size: 20px;
+}
+.eachsmallimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eachsmalltitle {
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 15px;
+}
+/* SMALL YEARS + BIG 2 PICTURES AND STARBUCKS NOWADAYS */
+.smallyearsandbigpictures {
+  display: flex;
+  justify-content: center;
+}
+.smallyears {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.smallyears > div {
+  padding-left: 40px;
+}
+.twobigimgandnowadays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2;
+}
+.twobigimgandnowadays img {
+  width: 100%;
+}
+.twobigimgandnowadays > div {
+  margin-bottom: 50px;
+}
+.starbucksnowadaysdiv {
+  margin: 35px;
+}
+.starbucksnowadaysdiv h2 {
+  text-align: center;
+  font-size: 44px;
+}
+.starbucksnowadaysdiv p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 900px) {
+  /* THREE SMALL IMG DISPLAY */
+  .threesmallimgdiv {
+    display: none;
+  }
+  .tabletthreesmallimgdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .tableteachsmallimgdiv {
+    display: flex;
+  }
+  .tableteachsmallimg {
+    margin: 30px;
+  }
+  .tableteachsmalltitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+  }
+  .tableteachsmalltitle h3 {
+    font-size: 30px;
+  }
+  .tableteachsmalltitle p {
+    font-size: 20px;
+  }
+
+  /* SMALL YEARS DISPLAY NONE + ADD TABLE */
+  .smallyears {
+    display: none;
+  }
+  .smallyearsandbigpictures {
+    flex-direction: column;
+  }
+
+  /*TABLE CSS  */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table {
+    display: block;
+  }
+  .green {
+    background-color: #e4efe7;
+    border: 2px solid #064420;
+    padding: 20px;
+  }
+  .lightgreen {
+    border: 2px solid #4c4c6d;
+    background-color: #b8dfd8;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /* TABLET TOP BIG IMG CHANGE TO MOBILE */
+  .topcontentandimg {
+    display: none;
+  }
+  .mobiletopcontentandimg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4efe7;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  .mobiletopcontentandimg h2 {
+    font-size: 30px;
+  }
+  .mobiletopcontentandimg p {
+    font-size: 20px;
+  }
+
+  /* TABLET THREE IMG DISPLAY CHANGE TO MOBILE */
+  .tabletthreesmallimgdiv {
+    display: none;
+  }
+  .threesmallimgdiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 500px) {
+    /* TABLE DISPLAY + SMALLYEARS DISPLAY */
+    .table {
+      display: none;
+    }
+    .smallyears {
+      display: flex;
+    }
+  }
+}

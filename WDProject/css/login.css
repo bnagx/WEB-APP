@@ -1,0 +1,298 @@
+/* background */
+
+.loginbackground {
+  background-image: url(/mywebsite/images/loginbg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 3 LOGO AND THEIR WORDS */
+.threelogobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.threelogobox > div {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.tabletfirsttwo {
+  display: flex;
+}
+
+.tabletfirsttwo > div {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.everylogobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 66.66%;
+}
+
+.everylogobox h3 {
+  text-align: center;
+}
+
+.everylogobox p {
+  text-align: center;
+}
+
+.thirdbox > div {
+  display: flex;
+  justify-content: center;
+}
+.thirdbox {
+  width: 33.33%;
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thirdbox h3 {
+  text-align: center;
+}
+
+.thirdbox p {
+  text-align: center;
+}
+
+/* LOGIN AND SIGNUP */
+
+.userinput {
+  border: solid 1px #064420;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 150px;
+}
+
+.userinputdate {
+  border: solid 1px #064420;
+  border-radius: 30px;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  padding-left: 50px;
+  padding-right: 180px;
+}
+
+.loginandsignup {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.loginandsignup a {
+  text-decoration: none;
+  color: white;
+}
+
+.loginbox {
+  background-color: white;
+  opacity: 0.8;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 5%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.loginbox > div {
+  padding-top: 10px;
+}
+
+.signupbox {
+  background-color: white;
+  opacity: 0.9;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 5%;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.signupbox > div {
+  padding-top: 10px;
+}
+
+.btn1 {
+  background-color: #064420;
+  border: solid 1px white;
+  color: white;
+  border-radius: 30px;
+  padding: 13px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.loginbtn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.signupbtn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* LOGIN AND SIGN UP HEADER */
+
+.loginandsignupnow {
+  text-align: center;
+}
+
+/* LOGIN AND SIGN UP FORM */
+.signupform > div {
+  padding-top: 10px;
+}
+.loginform > div {
+  padding-top: 10px;
+}
+
+/* TABLET VERSION */
+@media only screen and (max-width: 900px) {
+  /* BACKGROUND */
+  .loginbackground {
+    height: 100%;
+  }
+
+  /* TOP LOGO CONTENT */
+
+  .threelogobox {
+    flex-direction: column;
+  }
+
+  .tabletfirsttwo {
+    display: flex;
+  }
+
+  /* LOGIN AND SIGN UP */
+
+  .loginandsignup {
+    flex-direction: column;
+  }
+
+  .loginbox {
+    background-color: white;
+    opacity: 0.8;
+    margin: 100px;
+    border-radius: 5%;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .signupbox {
+    background-color: white;
+    opacity: 0.8;
+    margin: 100px;
+    border-radius: 5%;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .signupbox > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginbox > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginform > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signupform > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginbtn {
+    margin-top: 30px;
+  }
+
+  /* USER INPUT BOX SIZE */
+  .userinput {
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .userinputdate {
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 53px;
+  }
+
+  .btn1 {
+    padding: 7px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+/* MOBILE VERSION */
+@media only screen and (max-width: 500px) {
+  /* READJUST MARGIN AND INPUT BORDER SIZE */
+  .loginbox {
+    margin: 70px;
+  }
+  .signupbox {
+    margin: 70px;
+  }
+  .userinput {
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .userinputdate {
+    border-radius: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tabletfirsttwo > div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tabletfirsttwo {
+    flex-direction: column;
+  }
+
+  .threelogobox > div {
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  .everylogobox {
+    width: 100%;
+  }
+}

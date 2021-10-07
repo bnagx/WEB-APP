@@ -1,0 +1,272 @@
+/* DESKTOP BRANCHES CONTENT */
+
+/* JAPAN (1st)  */
+
+.firsthreeimg {
+  display: flex;
+  justify-content: center;
+}
+
+.firsttwoimg {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.japanthirdimg {
+  margin-top: 16px;
+}
+
+/* ITALY (2nd) */
+
+.tabletitaly {
+  display: none;
+}
+
+.secondhreeimg {
+  display: flex;
+  justify-content: center;
+}
+
+.italythirdimg {
+  margin-top: 16px;
+}
+
+.secondtwoimg {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+/* TAIWAN (3rd) */
+
+.tablettaiwan {
+  display: none;
+}
+
+.thirdthreebox {
+  display: flex;
+  justify-content: center;
+}
+.thirdtwoimg {
+  display: flex;
+}
+
+.taiwansecondimg {
+  padding-right: 10px;
+}
+.taiwanthirdimg {
+  padding-left: 10px;
+}
+
+/* WORDS IN EVERY CONTENT */
+
+.allword {
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.mobileitalyallword {
+  display: none;
+}
+
+/* TABLET CONTENT */
+
+@media only screen and (max-width: 900px) {
+  /* ALLWORD IN TABLET */
+
+  .allword {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .allword h1 {
+    font-size: 22px;
+  }
+
+  .allword p {
+    font-size: 15px;
+  }
+
+  /* JAPAN TABLET */
+
+  .firstbigbox {
+    display: flex;
+  }
+
+  .firsthreeimg {
+    display: block;
+  }
+
+  .firsttwoimg {
+    flex-direction: row;
+    padding-left: 0px;
+  }
+
+  .japanthirdimg {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .firstbigimg img {
+    width: 500px;
+    height: 250px;
+  }
+
+  .firsttwoimg img {
+    width: 240px;
+    height: 170px;
+  }
+
+  /* ITALY TABLET */
+  .secondbigbox {
+    display: none;
+  }
+
+  .tabletitaly {
+    display: flex;
+  }
+
+  .tabletitalyallword {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tabletitalyallword h1 {
+    font-size: 22px;
+  }
+
+  .tabletitalyallword p {
+    font-size: 15px;
+  }
+
+  .secondtwoimg {
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .italythirdimg {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .tabletsecondbigimg img {
+    width: 500px;
+    height: 250px;
+  }
+
+  .secondtwoimg img {
+    width: 240px;
+    height: 170px;
+  }
+
+  /* TAIWAN TABLET */
+
+  .thirdbigbox {
+    display: none;
+  }
+
+  .tablettaiwan {
+    display: flex;
+  }
+
+  .tablettaiwantwoimg {
+    display: flex;
+  }
+  .tablettaiwanthirdimg img {
+    margin-left: 20px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .firstbigbox {
+      flex-direction: column;
+    }
+
+    .tabletitaly {
+      flex-direction: column;
+    }
+
+    .tablettaiwan {
+      flex-direction: column;
+    }
+    .tabletitalyallword {
+      display: none;
+    }
+
+    .mobileitalyallword {
+      display: block;
+      text-align: center;
+    }
+
+    .mobileitalyallword h1 {
+      font-size: 22px;
+    }
+    .mobileitalyallword p {
+      font-size: 15px;
+    }
+
+    /*  ADJUST IMAGE SIZE */
+    /* JAPAN MOBILE  */
+
+    .firsthreeimg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .firstbigimg img {
+      width: 400px;
+      height: 200px;
+    }
+
+    .firsttwoimg img {
+      width: 190px;
+      height: 120px;
+    }
+
+    /* ITALY MOBILE*/
+    .tabletsecondhreeimg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tabletsecondbigimg img {
+      width: 400px;
+      height: 200px;
+    }
+
+    .secondtwoimg img {
+      width: 190px;
+      height: 100px;
+    }
+
+    /* TAIWAN MOBILE*/
+
+    .tabletthirdthreebox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .taiwanfirstimg img {
+      width: 400px;
+      height: 300px;
+    }
+
+    .tablettaiwantwoimg img {
+      width: 190px;
+      height: 300px;
+    }
+  }
+}

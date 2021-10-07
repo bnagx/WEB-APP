@@ -1,0 +1,232 @@
+<!-- mywebsite login-->
+<!-- WAN HAO XIN -->
+<!-- 2020052-BSE -->
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/sharedcontent.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<head>
+    <title>
+        Login
+    </title>
+
+    <style>
+        .footer {
+            margin-top: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- DESKTOP NAV BAR -->
+    <div class="desktopnavbar">
+        <div class="desktopleftnavbar">
+            <div>
+                <img src="images/starbucklogo.png" width="100px" height="100px">
+            </div>
+            <div class="starbucklogoposition">
+                <h1>STARBUCKS</h1>
+            </div>
+        </div>
+        <div class="desktoprightnavbar">
+            <a href="index.html">HOME</a>
+            <a href="history.html">HISTORY</a>
+            <a href="branches.html">BRANCHES</a>
+            <a href="products.html">PRODUCTS</a>
+            <a class="selected" href="">LOGIN</a>
+
+        </div>
+    </div>
+
+    <!-- TABLET NAV BAR -->
+
+    <div class="tabletnobartop">
+        <div class="tabletleftnavbar">
+            <div>
+                <img src="images/starbucklogo.png" width="100px" height="100px">
+            </div>
+            <div class="starbucklogoposition">
+                <h1>STARBUCKS</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="tabletnavbartop">
+        <div class="tabletleftnavbar">
+            <div>
+                <img src="images/starbucklogo.png" width="100px" height="100px">
+            </div>
+            <div class="starbucklogoposition">
+                <h1>STARBUCKS</h1>
+            </div>
+        </div>
+
+        <div class="iconposition">
+
+            <a href="javascript:void(0);" class="icon" onclick="hamburgerfunction()">
+                <i class="fa fa-bars" style="font-size:36px;color:#064420;"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="newmobilenavbarbtm" id="myLinks">
+
+        <div class="tabletHHBPL"><a href="index.html">HOME</a></div>
+        <div class="tabletHHBPL"><a href="history.html">HISTORY</a></div>
+        <div class="tabletHHBPL"><a href="branches.html">BRANCHES</a></div>
+        <div class="tabletHHBPL"><a href="products.html">PRODUCTS</a></div>
+        <div class="tabletHHBPL"><a href="login.html">LOGIN</a></div>
+    </div>
+
+
+    <!-- TABLET NAV BAR -->
+
+
+    <div class="tabletnavbarbtm">
+        <a href="index.html">HOME</a>
+        <a href="history.html">HISTORY</a>
+        <a href="branches.html">BRANCHES</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="login.html" class="selected">LOGIN</a>
+
+    </div>
+
+    <!-- background + content inside -->
+
+    <div class="loginbackground">
+
+        <div class="threelogobox">
+            <div class="tabletfirsttwo">
+                <div class="everylogobox">
+                    <div><img src="images/logo1.png"></div>
+                    <div>
+                        <h3>Earn 1 Star with every RM 1 Spent</h3>
+                    </div>
+                    <div>
+                        <p>With Starbucks card, you'll earn 1 Star for every RM 1 spent.
+                        </p>
+                    </div>
+                </div>
+                <div class="everylogobox">
+                    <div><img src="images/logo2.png"></div>
+                    <div>
+                        <h3>Pay with your phone</h3>
+                    </div>
+                    <div>
+                        <p>Make payment, reload account, and check your offers instantly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="thirdbox">
+                <div><img src="images/logo3.png"></div>
+                <div>
+                    <h3>Balance Protection
+                    </h3>
+                </div>
+                <div>
+                    <p>Your balance is protected if your Starbucks Card is lost or stolen.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="loginandsignup">
+            <div class="loginbox">
+                <div class="loginandsignupnow">
+                    <h3>Login now to enjoy multiple benefits! </h3>
+                </div>
+                <form class="loginform">
+                    <div>
+                        <input class="userinput" type="text" placeholder="Username" required>
+                    </div>
+                    <div>
+                        <input class="userinput" type="text" placeholder="Password" required>
+                    </div>
+                    <div class="loginbtn"> <button class="btn1">
+                            <a href="https://card.sbux.com.my/login">Login</a>
+                        </button></div>
+                </form>
+            </div>
+            <div class="signupbox">
+                <div class="loginandsignupnow">
+                    <h3>Don't have an account? Sign up now! </h3>
+                </div>
+                <form class="signupform">
+                    <div>
+                        <input class="userinput" type="text" placeholder="Username" required>
+                    </div>
+                    <div>
+                        <input class="userinput" type="password" placeholder="Password" required>
+                    </div>
+                    <div>
+                        <input class="userinput" type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <div>
+                        <input class="userinputdate" type="date" placeholder="Birthday (DD/MM/YYYY)" required>
+                    </div>
+                    <div>
+                        <input class="userinput" type="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <input class="userinput" type="text" placeholder="Country" required>
+                    </div>
+                    <div class="signupbtn">
+                        <button class="btn1" type="button">
+                            <a href="https://card.sbux.com.my/login">Sign up</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div>
+            <div class="footertop">
+                <div>
+                    <a href="https://www.starbucks.com/terms/privacy-policy">
+                        PRIVACY POLICY
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.starbucks.com/terms/manage-gift-cards">CARD TERMS AND CONDITION</a>
+                </div>
+            </div>
+            <div class="footerbtm">
+                <h3>© Copyright 2021 ALL RIGHT RESERVED</h3>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function hamburgerfunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+
+
+</html>

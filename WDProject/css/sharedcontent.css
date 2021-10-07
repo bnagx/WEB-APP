@@ -1,0 +1,235 @@
+body {
+  margin: auto;
+  max-width: 1280px;
+  font-family: "Georama", sans-serif;
+}
+
+/* SELECTED PAGE underline */
+.selected {
+  border-bottom: solid 3px #064420;
+}
+
+/* DESKTOP NAV BAR */
+.desktopnavbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desktopleftnavbar {
+  display: flex;
+}
+.tabletleftnavbar {
+  display: none;
+}
+
+.starbucklogoposition {
+  color: #064420;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktoprightnavbar {
+  display: flex;
+  align-items: center;
+}
+
+.desktoprightnavbar a {
+  color: #064420;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 70px;
+}
+
+.desktoprightnavbar a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 4px solid #064420;
+}
+
+/* TABLET NAV VAR , MOBILE NAV BAR */
+
+.tabletnavbartop {
+  display: none;
+}
+
+.newmobilenavbarbtm {
+  display: none;
+}
+
+.tabletnavbarbtm {
+  display: none;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-top: 40px;
+  background-color: #e4efe7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footertop {
+  display: flex;
+}
+
+.footertop a {
+  text-decoration: none;
+  color: #064420;
+}
+
+.footertop a:hover {
+  border-bottom: solid 2px #064420;
+}
+.footerbtm {
+  text-align: center;
+}
+
+.footertop > div {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  /* TABLET NAV BAR */
+  body {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .desktopnavbar {
+    display: none;
+  }
+
+  .tabletnobartop {
+    display: flex;
+  }
+
+  .tabletnavbartop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tabletnavbartop > div {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .newmobilenavbarbtm {
+    display: none;
+  }
+
+  .tabletnavbarbtm {
+    display: block;
+    border-top: solid 1px #064420;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .tabletnavbarbtm a {
+    color: #064420;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .tabletnavbarbtm a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 4px solid #064420;
+  }
+
+  .tabletnavbartop {
+    display: none;
+  }
+  .tabletleftnavbar {
+    display: flex;
+  }
+
+  .iconposition {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* MOBILE NAV BAR */
+  .desktopnavbar {
+    display: none;
+  }
+
+  .tabletnavbarbtm {
+    display: none;
+  }
+
+  .tabletleftnavbar {
+    display: none;
+  }
+
+  .tabletnavbartop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .newmobilenavbarbtm {
+    display: none;
+  }
+
+  .tabletnavbartop > div {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tabletnavbarlogo {
+    display: flex;
+    align-items: center;
+  }
+
+  .tabletHHBPL {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-bottom: solid 2px #064420;
+  }
+
+  .tabletHHBPL a {
+    color: #064420;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .tabletHHBPL a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 4px solid #064420;
+  }
+
+  .footertop > div {
+    width: 50%;
+  }
+
+  .footer a {
+    font-size: 15px;
+  }
+
+  /* HOVER DROPDOWN MENU */
+  #myLinks > a {
+    color: #064420;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 70px;
+  }
+
+  #myLinks a:hover {
+    color: black;
+    text-decoration: none;
+  }
+}

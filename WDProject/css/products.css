@@ -1,0 +1,141 @@
+body h5 {
+  text-align: center;
+  font-size: 17px;
+}
+
+/* DESKSTOP */
+/* COFFEE CSS */
+.eachimgdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffeebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coffeebox > div {
+  padding: 18px;
+}
+
+.coffeetitle {
+  padding: 20px;
+}
+
+/* TEA CSS */
+.teabox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.teabox > div {
+  padding: 18px;
+}
+.teatitle {
+  padding: 20px;
+}
+
+/* FRAPPUCCINO CSS */
+.frappuccinobox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.frappuccinobox > div {
+  padding: 18px;
+}
+.frappuccinoboxtitle {
+  padding: 20px;
+}
+
+/* DISPLAY NONE IN DESKTOP */
+.tabletcoffeetitle {
+  display: none;
+}
+.tabletteatitle {
+  display: none;
+}
+
+/* TABLET */
+@media only screen and (max-width: 900px) {
+  /* COFFEE AND TEA DISPLAY */
+  .coffeeandtea {
+    display: flex;
+  }
+  .coffeeandtea > div {
+    flex: 1;
+  }
+  .teatitle {
+    display: none;
+  }
+  .coffeetitle {
+    display: none;
+    text-align: center;
+  }
+  .tabletteatitle {
+    display: block;
+    text-align: center;
+  }
+  .tabletcoffeetitle {
+    display: block;
+    text-align: center;
+  }
+  .frappuccinoboxtitle {
+    text-align: center;
+  }
+  /* MAKE each coffee,tea & its name and price to display flex */
+  .coffee {
+    display: flex;
+  }
+  .coffee > div {
+    margin: 2px;
+  }
+
+  .tea {
+    display: flex;
+  }
+  .tea > div {
+    margin: 2px;
+  }
+  .eachpricediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .eachpricediv h5 {
+    margin: 15px;
+  }
+
+  /* COFFEE AND TEA BOX DIRECTION */
+  .coffeebox {
+    flex-direction: column;
+  }
+  .teabox {
+    flex-direction: column;
+  }
+  /* FRAPPUCCINO DISPLAY */
+  .frappuccinobox {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .coffeeandtea {
+    flex-direction: column;
+  }
+
+  /* FRAPPUCCINO DISPLAY FLEX */
+  .frappuccinobox {
+    display: block;
+  }
+  .frappuccino {
+    display: flex;
+  }
+}
